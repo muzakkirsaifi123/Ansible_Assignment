@@ -1,0 +1,5 @@
+[node1]
+18.218.111.151 ansible_user=ansible
+
+[node2]
+18.191.62.69 ansible_user=ansible

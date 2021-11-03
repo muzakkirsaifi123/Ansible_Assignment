@@ -1,0 +1,4 @@
+---
+# defaults file for nginx_role
+webserver_packages:
+  - nginx

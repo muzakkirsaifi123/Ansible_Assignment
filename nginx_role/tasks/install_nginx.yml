@@ -1,0 +1,14 @@
+- name: updating packages repo in debian
+  apt:
+    update_cache: yes
+
+- name: Install nginx on debian
+  apt:
+    name: "{{ webserver_packages }}"
+    state: "{{ version }}"
+  tags:
+    - installation
+  vars:
+    version: latest
+  
+

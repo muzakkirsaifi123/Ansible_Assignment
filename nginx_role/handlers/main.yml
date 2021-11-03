@@ -1,0 +1,20 @@
+---
+# handlers file for nginx_role
+
+- name: Start NGINX
+  service:
+    name: nginx
+    state: started
+  register: result
+  listen: Start NGINX
+  tags: service_start
+
+
+- name: Reload NGINX
+  service:
+    name: nginx
+    state: reloaded
+  listen: Reload NGINX
+
+  tags:
+    - service_reload

@@ -1,0 +1,11 @@
+---
+- import_tasks: install_nginx.yml
+  notify: 
+    - Start NGINX
+    
+- import_tasks: web.yml
+- import_tasks: copy_ws.yml
+  notify:
+    - Reload NGINX
+
+

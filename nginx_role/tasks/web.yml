@@ -1,0 +1,7 @@
+- name: copying the website required files
+  copy:
+    dest: /var/www/html/
+    src: files/motora-html
+    owner: root
+    group: root
+    mode: 0644 
