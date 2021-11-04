@@ -1,0 +1,6 @@
+- name: Start service
+  service: 
+    name: nginx
+    state: "{{ Start }}"
+  # listen: restart service
+  # become: yes

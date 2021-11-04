@@ -1,4 +1,6 @@
 ---
 # vars file for nginx_role
+
+# It has more precedence in comparison to default that why I have define the  var in var folder as well as default folder to show the precedence
 webserver_packages:
   - nginx

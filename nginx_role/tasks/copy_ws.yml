@@ -3,10 +3,5 @@
   template:
     src: templates/static.conf
     dest: /etc/nginx/conf.d/static.conf
-    #force: yes
-    owner: root
-    group: root
-    mode: '0775'
-  #become: yes
-  tags: 
-    - conf
+  tags: conf
+ 

@@ -1,7 +1,7 @@
-- name: copying the website required files
+- name: copying html pages to hosts machine
   copy:
     dest: /var/www/html/
     src: files/motora-html
-    owner: root
-    group: root
-    mode: 0644 
+  tags: web_page
+  notify: Restart Nginx
+ 

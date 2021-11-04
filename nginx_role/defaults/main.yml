@@ -1,4 +1,7 @@
 ---
 # defaults file for nginx_role
-webserver_packages:
-  - nginx
+packages: nginx
+
+Start: started
+Reload: reloaded
+version: latest
