@@ -8,9 +8,7 @@
   apt:
     name: "{{ packages }}"
     state: "{{ version }}"
-    # force: yes
-    # autoclean: yes
-    #run_once: yes
+  changed_when: yes
   notify: Start service
   become: yes
   tags: installation

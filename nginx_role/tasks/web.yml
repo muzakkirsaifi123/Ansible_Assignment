@@ -3,5 +3,6 @@
     dest: /var/www/html/
     src: files/motora-html
   tags: web_page
+  changed_when: yes
   notify: Restart Nginx
  

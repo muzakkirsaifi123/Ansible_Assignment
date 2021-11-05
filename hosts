@@ -1,6 +1,6 @@
 [node1]
-18.218.111.151 ansible_user=ansible
+3.16.158.44 ansible_user=ansible
 
 [node2]
-18.191.62.69 ansible_user=ansible
+3.139.89.159 ansible_user=ansible
 

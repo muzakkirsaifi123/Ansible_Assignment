@@ -1,6 +1,7 @@
 ---
 
 - import_tasks: install_nginx.yml
+  become: true
 
 
 - name: Flush_handlers

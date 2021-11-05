@@ -3,5 +3,5 @@
 packages: nginx
 
 Start: started
-Reload: reloaded
+Restart: restarted
 version: latest
